@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Southeast PHP Recap</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet"> 
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<script src="https://use.fontawesome.com/2cbd3292d8.js"></script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+			img.bio--image {
+				height: 15rem;
+				width: 15rem;
+			}
+
+			ul.bio--list li {
+				list-style: none;
+			}
+
+			html, body, p, h1, h2, h3, h4, h5, h6 {
+    		font-family: 'Quicksand', sans-serif;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Southeast PHP Recap</h1>
+				</section>
+				<section>
+					<h2>Attendees</h2>
+					<p><b>Tickets Sold</b>: 100</p>
+					<p><b>Total Tickets</b>: 141</p>
+					<p><b>People we let sneak in</b>: 1</p>
+					<p><b>Joind.in Feedback Count</b>: 93</p>
+					<p><b>Elephpants</b>: 14</p>
+				</section>
+				<section>
+					<h2>Speakers</h2>
+					<p><b>Total</b>: 37</p>
+					<p><b>Local</b>: 7</p>
+					<p><b>Former Nashville residents who moved away to be closer to the ocean or some shit</b>: 1</p>
+					<p><b>Mildly Local</b>: 4</p>
+					<p><b>Outside the Southeast</b>: 24</p>
+					<p><b>Funny Accent</b>: 1</p>
+				</section>
+				<section>
+					<h2>Speakers</h2>
+					<p><b>Men</b>: 23</p>
+					<p><b>Women</b>: 14</p>
+				</section>
+				<section>
+					<h2>Speakers</h2>
+					<p><b>Native Hawaiian</b>: 1</p>
+					<p><b>African American</b>: 2</p>
+					<p><b>Latina</b>: 1</p>
+					<p><b>Trans</b>: 2</p>
+				</section>
+				<section>
+					<h2>Sponsors</h2>
+					<p><b>Total</b>: 23</p>
+					<p><b>Highest Tier</b>: $6000</p>
+					<p><b>Lowest Tier</b>: $50</p>
+				</section>
+				<section>
+					<h2>Code of Conduct</h2>
+					<p>No Incidents</p>
+					<small>My coworkers dont count</small>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
